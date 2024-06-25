@@ -11,7 +11,6 @@
 using namespace std;
 #include "Categoria.h"
 #include <vector>
-//#include "Puntaje.h"
 #include "Partida.h"
 class Videojuego {
 private:
@@ -19,7 +18,6 @@ private:
 	string descripcion;
 	float promedio;
 	vector<Categoria*> categorias;
-    //vector<Puntaje*> puntajes;
 	vector<Partida*> partidas;
 public:
 	Videojuego();
