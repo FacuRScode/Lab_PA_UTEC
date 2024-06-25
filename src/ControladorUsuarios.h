@@ -4,6 +4,11 @@
  *  Created on: 23 jun 2024
  *      Author: Cristian
  */
+
+
+#ifndef CONTROLADORUSUARIOS_H_
+#define CONTROLADORUSUARIOS_H_
+
 #include "IControladorUsuarios.h"
 #include "DtUsuario.h"
 #include "DtJugador.h"
@@ -13,15 +18,12 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-
-
-#ifndef CONTROLADORUSUARIOS_H_
-#define CONTROLADORUSUARIOS_H_
+#include "Usuario.h"
 
 class ControladorUsuarios : public IControladorUsuarios {
 private:
-	//vector<Usuario*> usuarios;
-	//Usuario* usuarioActual;
+	vector<Usuario*> usuarios;
+	Usuario* usuarioActual;
 public:
 	ControladorUsuarios();
 	virtual ~ControladorUsuarios();

@@ -4,16 +4,16 @@
  *  Created on: 23 jun 2024
  *      Author: Cristian
  */
+
+
+#ifndef ICONTROLADORVIDEOJUEGOS_H_
+#define ICONTROLADORVIDEOJUEGOS_H_
 #include "DtVideojuego.h"
 #include "DtCategoria.h"
 
 #include <iostream>
 using namespace std;
 #include <vector>
-
-#ifndef ICONTROLADORVIDEOJUEGOS_H_
-#define ICONTROLADORVIDEOJUEGOS_H_
-
 enum enumSus
 {
 	Vitalicia,

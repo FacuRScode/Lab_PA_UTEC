@@ -4,6 +4,11 @@
  *  Created on: 23 jun 2024
  *      Author: Cristian
  */
+
+
+#ifndef CONTROLADORPARTIDAS_H_
+#define CONTROLADORPARTIDAS_H_
+
 #include "IControladorPartidas.h"
 #include "DtPartidaMultijugador.h"
 #include "DtPartida.h"
@@ -13,9 +18,6 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-
-#ifndef CONTROLADORPARTIDAS_H_
-#define CONTROLADORPARTIDAS_H_
 
 class ControladorPartidas: public IControladorPartidas {
 private:

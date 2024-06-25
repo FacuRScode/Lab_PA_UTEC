@@ -4,12 +4,13 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
-#include <iostream>
-using namespace std;
-#include "DtFecha.h"
+
 
 #ifndef DTPARTIDA_H_
 #define DTPARTIDA_H_
+#include <iostream>
+using namespace std;
+#include "DtFecha.h"
 
 class DtPartida {
 private:

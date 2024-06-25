@@ -4,12 +4,14 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
-#include <iostream>
-using namespace std;
-#include "DtFecha.h"
+
 
 #ifndef DTCOMENTARIO_H_
 #define DTCOMENTARIO_H_
+
+#include <iostream>
+using namespace std;
+#include "DtFecha.h"
 
 class DtComentario {
 private:
@@ -20,7 +22,7 @@ private:
 	string texto;
 public:
 	DtComentario();
-	DtComentario(int, DtFecha, string);
+	DtComentario(int, DtFecha, int, string, string);
 	virtual ~DtComentario();
 
 	int getId();

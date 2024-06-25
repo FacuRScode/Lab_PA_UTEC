@@ -5,13 +5,14 @@
  *      Author: Cristian
  */
 
+
+#ifndef DTDESARROLLADOR_H_
+#define DTDESARROLLADOR_H_
+
 #include "DtUsuario.h"
 
 #include <iostream>
 using namespace std;
-
-#ifndef DTDESARROLLADOR_H_
-#define DTDESARROLLADOR_H_
 
 class DtJugador : public DtUsuario{
 private:

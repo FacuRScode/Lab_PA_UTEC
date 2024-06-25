@@ -4,18 +4,13 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
-#include <iostream>
-using namespace std;
+
 
 #ifndef DTUSUARIO_H_
 #define DTUSUARIO_H_
-
+#include <iostream>
+using namespace std;
 class DtUsuario {
-	enum enumTipo
-	{
-		Plataforma,
-		Genero
-	};
 private:
 	string email;
 	string contrasenia;
