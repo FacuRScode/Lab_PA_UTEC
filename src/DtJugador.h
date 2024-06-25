@@ -6,8 +6,8 @@
  */
 
 
-#ifndef DTDESARROLLADOR_H_
-#define DTDESARROLLADOR_H_
+#ifndef DTJUGADOR_H_
+#define DTJUGADOR_H_
 
 #include "DtUsuario.h"
 
