@@ -4,6 +4,10 @@
  *  Created on: 23 jun 2024
  *      Author: Cristian
  */
+
+
+#ifndef ICONTROLADORUSUARIOS_H_
+#define ICONTROLADORUSUARIOS_H_
 #include "DtUsuario.h"
 #include "DtJugador.h"
 #include "DtDesarrollador.h"
@@ -11,10 +15,6 @@
 #include <iostream>
 using namespace std;
 #include <vector>
-
-#ifndef ICONTROLADORUSUARIOS_H_
-#define ICONTROLADORUSUARIOS_H_
-
 enum enumRol
 {
 	Jugador,

@@ -4,13 +4,13 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
+
+#ifndef DTVIDEOJUEGO_H_
+#define DTVIDEOJUEGO_H_
 #include <vector>
 #include <iostream>
 using namespace std;
 #include "DtCategoria.h"
-#ifndef DTVIDEOJUEGO_H_
-#define DTVIDEOJUEGO_H_
-
 class DtVideojuego {
 
 private:

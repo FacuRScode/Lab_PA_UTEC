@@ -4,15 +4,15 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
+
+#ifndef DTPARTIDAMULTIJUGADOR_H_
+#define DTPARTIDAMULTIJUGADOR_H_
 #include <iostream>
 using namespace std;
 #include "DtFecha.h"
 #include <vector>
-
-#ifndef DTPARTIDAMULTIJUGADOR_H_
-#define DTPARTIDAMULTIJUGADOR_H_
-
-class DtPartidaMultijugador {
+#include "DtPartida.h"
+class DtPartidaMultijugador: public DtPartida {
 private:
 	int id;
 	DtFecha fecha;

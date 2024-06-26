@@ -4,21 +4,24 @@
  *  Created on: 23 jun 2024
  *      Author: Cristian
  */
-#include "IControladorVideojuegos.h"
-#include "DtVideojuego.h"
-#include "DtCategoria.h"
 
-#include <vector>
-#include <iostream>
-using namespace std;
 
 #ifndef CONTROLADORVIDEOJUEGOS_H_
 #define CONTROLADORVIDEOJUEGOS_H_
 
+#include "IControladorVideojuegos.h"
+#include "DtVideojuego.h"
+#include "DtCategoria.h"
+#include "Categoria.h"
+#include "Videojuego.h"
+#include <vector>
+#include <iostream>
+using namespace std;
+
 class ControladorVideojuegos: public IControladorVideojuegos {
 private:
-	//vector<Categoria*> categorias;
-	//vector<Videojuego*> videojuegos;
+	vector<Categoria*> categorias;
+	vector<Videojuego*> videojuegos;
 public:
 	ControladorVideojuegos();
 	virtual ~ControladorVideojuegos();

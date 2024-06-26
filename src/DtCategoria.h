@@ -4,11 +4,13 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
-#include <iostream>
-using namespace std;
+
 
 #ifndef DTCATEGORIA_H_
 #define DTCATEGORIA_H_
+
+#include <iostream>
+using namespace std;
 
 class DtCategoria {
 	enum enumTipo

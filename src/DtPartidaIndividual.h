@@ -4,14 +4,15 @@
  *  Created on: 24 jun 2024
  *      Author: Cristian
  */
-#include <iostream>
-using namespace std;
-#include "DtFecha.h"
+
 
 #ifndef DTPARTIDAINDIVIDUAL_H_
 #define DTPARTIDAINDIVIDUAL_H_
-
-class DtPartidaIndividual {
+#include <iostream>
+using namespace std;
+#include "DtFecha.h"
+#include "DtPartida.h"
+class DtPartidaIndividual: public DtPartida {
 private:
 	int id;
 	DtFecha fecha;
